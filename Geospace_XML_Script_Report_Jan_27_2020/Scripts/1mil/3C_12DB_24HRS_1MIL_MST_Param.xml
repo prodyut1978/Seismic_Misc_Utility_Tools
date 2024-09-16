@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeoReaperParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <mOutputDataPath />
+  <mFilterMode>GSX3HZ6DB</mFilterMode>
+  <ServerLocation>SERVER38</ServerLocation>
+  <ServerName>SQLEXPRESS</ServerName>
+  <NetCommDelay>5000</NetCommDelay>
+  <OutputPathID>0</OutputPathID>
+  <UseMDI>true</UseMDI>
+  <ListenChannel>CHANNEL12</ListenChannel>
+  <LedMode>ALWAYSFLASH</LedMode>
+  <FilterMode>GSX3HZ6DB</FilterMode>
+  <deployTestMinutes>1</deployTestMinutes>
+  <OhmsValueVertical>
+    <OhmsUpperLimit>9465</OhmsUpperLimit>
+    <OhmsLowerLimit>7128</OhmsLowerLimit>
+    <THDUpperLimit>0.31622776601683794</THDUpperLimit>
+    <TheoreticalVin>0</TheoreticalVin>
+    <OscFreqCode>TOSC_FREQ_15_625</OscFreqCode>
+    <AttCode>TOSC_ATTN_DB12</AttCode>
+  </OhmsValueVertical>
+  <OhmsValueHorizontal>
+    <OhmsUpperLimit>9465</OhmsUpperLimit>
+    <OhmsLowerLimit>7128</OhmsLowerLimit>
+    <THDUpperLimit>0.31622776601683794</THDUpperLimit>
+    <TheoreticalVin>0</TheoreticalVin>
+    <OscFreqCode>TOSC_FREQ_15_625</OscFreqCode>
+    <AttCode>TOSC_ATTN_DB12</AttCode>
+  </OhmsValueHorizontal>
+  <OhmsValueHydrophone>
+    <OhmsUpperLimit>9465</OhmsUpperLimit>
+    <OhmsLowerLimit>7128</OhmsLowerLimit>
+    <THDUpperLimit>0.31622776601683794</THDUpperLimit>
+    <TheoreticalVin>0</TheoreticalVin>
+    <OscFreqCode>TOSC_FREQ_15_625</OscFreqCode>
+    <AttCode>TOSC_ATTN_DB12</AttCode>
+  </OhmsValueHydrophone>
+  <CmrrTest>
+    <maximumCmrrRatio>0.1</maximumCmrrRatio>
+    <cmrrTestFrequency>TOSC_FREQ_15_625</cmrrTestFrequency>
+  </CmrrTest>
+  <CrossfeedTest>
+    <maximumXfeedRatio>0.1</maximumXfeedRatio>
+    <xfeedTestFrequency>TOSC_FREQ_15_625</xfeedTestFrequency>
+  </CrossfeedTest>
+</GeoReaperParameters>

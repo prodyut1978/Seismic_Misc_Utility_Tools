@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <dStartDateTime>2018-01-15T16:00:00Z</dStartDateTime>
+  <loopMode>LOOP_EVERYDAY</loopMode>
+  <tag>0</tag>
+  <mStatus>SUCCESS</mStatus>
+  <Links>
+    <ScriptLink>
+      <id>1</id>
+      <timeIntervalRecordOn>
+        <IntervalCount>1439</IntervalCount>
+        <TimeUnit>IN_MINUTES</TimeUnit>
+      </timeIntervalRecordOn>
+      <timeIntervalRecordOff>
+        <IntervalCount>60</IntervalCount>
+        <TimeUnit>IN_SECONDS</TimeUnit>
+      </timeIntervalRecordOff>
+      <dtBeginTime>2018-01-15T16:00:00Z</dtBeginTime>
+      <dtEndTime>2018-01-16T15:59:00Z</dtEndTime>
+      <RateCode>ADC_SRATE_1KHZ</RateCode>
+      <TestMode>TEST_MODE_RUN</TestMode>
+      <GpsMode>GPS_CYCLE</GpsMode>
+      <GainCodeCh1>ADC_GAIN_12DB</GainCodeCh1>
+      <GainCodeCh2>ADC_GAIN_12DB</GainCodeCh2>
+      <GainCodeCh3>ADC_GAIN_12DB</GainCodeCh3>
+      <GainCodeCh4>ADC_GAIN_12DB</GainCodeCh4>
+      <LowCutCode1>ADC_LC_1Hz</LowCutCode1>
+      <LowCutCode2>ADC_LC_1Hz</LowCutCode2>
+      <LowCutCode3>ADC_LC_1Hz</LowCutCode3>
+      <LowCutCode4>ADC_LC_1Hz</LowCutCode4>
+      <AliasCode>ADC_ALIAS_MINIMUMPHASE</AliasCode>
+    </ScriptLink>
+  </Links>
+  <ID>1</ID>
+  <Name>3C_12DB_24HRS_1MIL_MST</Name>
+  <Description>New Script</Description>
+  <StartDateTime>2018-01-15T09:00:00-07:00</StartDateTime>
+  <Locked>false</Locked>
+  <LoopMode>LOOP_EVERYDAY</LoopMode>
+</Script>
